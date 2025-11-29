@@ -35,15 +35,18 @@ Context Retrieval (Top-K)
     ↓
 Gemini 2.5 Flash → Grounded Answer with Citations
 
-🛠 Tech Stack
-Component     	        Tool
-LLM           	        Gemini-2.5-Flash
-Embedding Model        	all-MiniLM-L6-v2
-Vector Store	          FAISS
-OCR	                    Tesseract + Poppler
-PDF Extraction	        pdfplumber, pdf2image
-Frontend	              Streamlit
-Language	              Python
+## 🛠 Tech Stack
+
+| Component          | Tool |
+|-------------------|------|
+| LLM               | Gemini-2.5-Flash |
+| Embedding Model   | all-MiniLM-L6-v2 |
+| Vector Store      | FAISS |
+| OCR               | Tesseract + Poppler |
+| PDF Extraction    | pdfplumber, pdf2image |
+| Frontend          | Streamlit |
+| Language          | Python |
+
 
 ▶️ How to Run the App
 1️⃣ Install dependencies

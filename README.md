@@ -72,12 +72,14 @@ streamlit run app.py
 
 Upload a PDF → Ask questions → View results with citations.
 
-📈 Results & Performance Metrics
-Metric	Value
-Avg Retrieval Time	< 200 ms
-Avg Answer Generation	~2–4 sec
-Modalities supported	Text, Tables, OCR
-Citation accuracy	High
+## 📈 Results & Performance Metrics
+
+| Metric               | Value                |
+|---------------------|---------------------|
+| Avg Retrieval Time  | < 200 ms            |
+| Avg Answer Generation | ~2–4 sec          |
+| Modalities Supported | Text, Tables, OCR  |
+| Citation Accuracy    | High               |
 
 📌 Performance tested using Qatar Economic PDF report.
 

@@ -20,20 +20,28 @@ Feature	Description
 📊 Performance Metrics	Retrieval + Generation latency
 📌 Summarization	5-bullet policy briefing from document
 
-🏗️ Architecture
-PDF Upload
-    ↓
-Text + Table Extraction (pdfplumber) + OCR (pytesseract)
-    ↓
-Smart Chunking (overlapping windows)
-    ↓
-Embeddings (SentenceTransformer: all-MiniLM-L6-v2)
-    ↓
-FAISS Vector Index
-    ↓
-Context Retrieval (Top-K)
-    ↓
-Gemini 2.5 Flash → Grounded Answer with Citations
+## 🧩 System Architecture
+
+**PDF Upload**  
+⬇  
+**Text & Table Extraction** (pdfplumber)  
++  
+**OCR for Images/Scanned Pages** (Tesseract + Poppler)  
+⬇  
+**Smart Chunking** (overlapping word windows)  
+⬇  
+**Embeddings Generation**  
+*SentenceTransformer — all-MiniLM-L6-v2*  
+⬇  
+**FAISS Vector Indexing**  
+⬇  
+**Top-K Semantic Retrieval**  
+⬇  
+**LLM Response Generation**  
+*Gemini 2.5 Flash*  
+⬇  
+📌 **Grounded Answer with Page-Level Citations**
+
 
 ## 🛠 Tech Stack
 
